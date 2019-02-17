@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Webpage With Style</title>
+
+    <style type="text/css">
+
+      h1{
+        color:pink;
+      }
+
+      .blue {
+        color:blue;
+      }
+
+      .large{
+        font-size:200%;
+      }
+
+      #green{
+        color:green;
+      }
+
+      .underlined{
+        text-decoration:underline;
+      }
+
+      #first-section{
+        color:aqua;
+        background-color:#FF8919;
+        width:200px;
+        margin-left:150px
+      }
+
+      #second-section{
+        color:brown;
+        background-color:yellow;
+        width:200px;
+        margin:50px 20px;
+      }
+
+      .float-clear{
+        background-color:red;
+        color:white;
+        text-decoration:underline;
+        text-decoration-style:wavy;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="first-section">
+      <h1>CSS is cool</h1>
+      <p class="blue">This is a paragraph</p>
+      <p class="blue">Default size for h1 is 250%, font-size goes by the default size of a
+      paragraph.</p>
+    </div>
+
+    <hr>
+
+    <p class="blue">Setting up internal CSS (in head)</p>
+    <p class="blue large">Wow, I love internal CSS!</p>
+
+    <hr>
+
+    <p class="blue underlined">Setting up classes in tags to apply styles to individual or certain members of that tag</p>
+    <p id="green">Writing some text. <span class="underlined">And this text is underlined.</span></p>
+
+    <hr>
+
+    <div id="second-section">
+      <p>working with divs</p>
+      <p>Look at my nice background</p>
+    </div>
+
+    <hr>
+
+    <p>Changing colors based on RGB values</p>
+
+    <hr>
+
+    <p class="float-clear">applying new styles such as alignment(float: moves the selected material to the
+      assigned area, anything not floated will go on the opposite side of the float
+      assignment  clear: makes it so material appear below? may need better documentation
+      to confirm that)</p>
+
+    <hr>
+
+    <p>Postioning: relative, fixed and absolute- speak to other objects on the page, relative
+    to other objects on page, absolute is not, and fixed is like absolute but will stick around\
+    while scrolling. left and top- margins by pixels.Opacity: 1 is solid, 0 is invisible.
+    z-index:orders priority for overlapping parts. </p>
+
+    <hr>
+
+    <p>Margin: sets a margin all the way around an object. </p>
+
+    <hr>
+
+    <p>Padding: </p>
+
+  </body>
+</html>
