@@ -2,6 +2,11 @@
 <html>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
   <head>
 
@@ -365,10 +370,17 @@
           value of the radio buttons.</p>
 
       <hr>
-
-
-
-    </div>
+        <div class="btn-group-vertical dropdown dropright">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Apple</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Samsung</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">T-Mobile</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Tablet</a>
+              <a class="dropdown-item" href="#">Smartphone</a>
+              <a class="dropdown-item" href="#">Music Player</a>
+            </div>
+        </div>
 
     <script src="myCtrl.js"></script>
 
