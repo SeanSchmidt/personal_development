@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
+    <link href="https://fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
     <meta charset="utf-8">
     <title>Webpage With Style</title>
 
@@ -49,20 +49,32 @@
       }
 
       .square{
-        height:100px;
-        width:100px;
+        height:200px;
+        width:200px;
         margin:10px;
         float:left;
+        text-align: center;
       }
 
       #square1{
         background-color:red;
+        border: 10px black solid;
       }
       #square2{
         background-color:blue;
+        border-style: ridge solid dotted dashed;
+        border-color: pink purple teal red;
+        border-width: 20px 10px 6px 4px;
+        border-radius: 50px;
       }
       #square3{
         background-color:green;
+        border: 10px orange double;
+        border-radius: 50%;
+      }
+
+      #FF1{
+        font-family: 'Felipa', cursive;
       }
 
     </style>
@@ -124,7 +136,7 @@
 
     <hr>
 
-    <p>Border: </p>
+    <p>Border: Sets a "frame" around the container</p>
 
     <p>test of material so fare (the squares)</p>
     <div id="square1" class="square">
@@ -138,6 +150,20 @@
     <div id="square3" class="square">
       <p>This is square 3</p>
     </div>
+
+    <hr>
+
+    <p>Fonts: changing the fonts via font families. <br>
+    Can also get fonts online through things like google fonts (needs href) </p>
+    <p id="FF1">this is some text</p>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    
 
   </body>
 </html>
