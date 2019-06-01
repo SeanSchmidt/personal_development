@@ -77,6 +77,42 @@
         font-family: 'Felipa', cursive;
       }
 
+      .bold{
+        font-weight: bold;
+      }
+
+      .italic{
+        font-style: italic;
+      }
+
+      .underline{
+        text-decoration: underline;
+      }
+
+      .ralign{
+        text-align: right;
+      }
+
+      .calign{
+        text-align: center;
+      }
+
+      .jalign{
+        text-align: justify;
+      }
+
+      .uhover{
+        text-decoration: none;
+      }
+
+      .uhover:hover{
+        text-decoration: underline;
+      }
+
+      .uhover:visited{
+        color: green;
+      }
+
     </style>
 
   </head>
@@ -160,10 +196,26 @@
     <br>
     <br>
     <br>
+    <br>
 
     <hr>
 
-    
+    <p class="bold">Going to be making our text bold.</p>
+    <p class="italic">Going to be making our text italics <span class="bold">and this part both bold and italics</span></p>
+    <p class="underline">Going to be making our text underlined</p>
+    <p>When defining the css element to be changed, in this case for a link you can set to specifications for hovering by doing element:hover</p>
+
+    <hr>
+
+    <p>This section is on text alignment. alignments are set according to their parent enclosure</p>
+    <p class="ralign">Hello</p>
+    <p class="calign">Hey</p>
+    <p class="jalign">Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi </p>
+
+    <hr>
+
+    <p>Looking more into links <a class="uhover" href="http://www.google.com">For instance, this google link</a> </p>
+    <a class="uhover" href="http://www.reddit.com" target="_blank">Reddit with change in visited status</a>
 
   </body>
 </html>
