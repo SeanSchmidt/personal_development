@@ -5,61 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BBC Lookalike</title>
-    <style type="text/css">
 
-        #topbar {
-            width: 1000px;
-            margin: 0 auto;
-            height: 40px;
-        }
+    <link rel="stylesheet" type="text/css" href="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/BBC.css">
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Helvetica, Arial, sans-serif
-
-        }
-
-        #logo {
-            margin-top: -5px;
-            float: left;
-            width: 100px;
-        }
-
-        .topbar-section {
-            float: left;
-            border-left: 1px #CCCCCC solid;
-            height: 100%;
-            margin-right: 17px;
-        }
-
-        #signin-image {
-            width: 25px;
-            margin: 8px 15px;
-        }
-
-        #signin-text {
-            font-weight: bold;
-            font-size: 90%;
-            position: relative;
-            top: -14px;
-        }
-
-        .topbar-menu {
-            font-weight: bold;
-            font-size: 90%;
-            padding: 13px 15px 0 15px;
-            height: 27px;
-        }
-
-    </style>
 </head>
 
 <body>
     <div id="topbar">
-        <img id="logo" src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/bbc_logo.png">
+        <img id="logo"
+            src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/bbc_logo.png">
         <div id="signin-div" class="topbar-section">
-            <img id="signin-image" src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/sign-in.png">
+            <img id="signin-image"
+                src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/sign-in.png">
             <span id="signin-text">Sign In</span>
         </div>
         <div class="topbar-section topbar-menu">
@@ -71,7 +28,94 @@
         <div class="topbar-section topbar-menu">
             Weather
         </div>
+        <div class="topbar-section topbar-menu">
+            Reel
+        </div>
+        <div class="topbar-section topbar-menu">
+            Travel
+        </div>
+        <div class="topbar-section topbar-menu">
+            Capital
+        </div>
+        <div class="topbar-section">
+
+            <input id="topbar-search" type="text" placeholder="Search">
+            <input type="image" id="magglass"
+                src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/magnifying-glass.png">
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar-containter">
+        <div id="menu-bar">
+            <h1>News</h1>
+            <div id="local-news">
+                <a href="">Find local News</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="menu-bar-2-container">
+            <div id="menu-bar-2">
+                <a href="">Home</a>
+                <a href="">UK</a>
+                <a href="">World</a>
+                <a href="">Buiness</a>
+                <a href="">Politics</a>
+                <a href="">Tech</a>
+                <a href="">Science</a>
+                <a href="">Health</a>
+                <a href="">Education</a>
+                <a href="">Entertainment & Arts</a>
+                <a href="">Video & Audio</a>
+                <a class="no-border" href="">More</a>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="page-container">
+        <div id="main-article">
+            <h2>Technology</h2>
+
+            <div id="article-container">
+
+            <h3><a href="">Asda bug exposed payment details</a></h3>
+
+            <div id="article-summary">
+                <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+                <p><span id="date"> 19 January 2016 </span> <a id="topic-link" href="">Technology</a></p>
+                
+                <hr id="article-hr" align="left">
+
+                <p><a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
+                <p><a class="article-link" href="">ebay flaw has existed for months</a></p>
+
+            </div>
+
+            <img id="main-article-image" src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/asda.jpeg">
+
+            </div>
+
+        </div>
+        <div id="watch-listen">
+            <h4>Watch/Listen</h4>
+            <img class="article-side-image" src="/home/sean/Documents/Udemy/Complete_Web_Dev/personal_development/2-CSS/Final_assignment_pics/video-link-1.jpeg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+                <p><span class="date">19 January 2016</span></p>
+                <br>
+                <a class="topic-link no-border" href="">Technology</a>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="/home/sean/Downloads/Pitch1.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">CCSU CS Showcase</a></p>
+                <p><span class="date">5 May 2019</span></p>
+            </div>
+            <div class="clear"></div>
+
+        </div>
     </div>
 </body>
+
+<!--    -->
 
 </html>
